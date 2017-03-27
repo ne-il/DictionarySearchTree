@@ -1,0 +1,24 @@
+Avec cette structure, construire le lexique d’un texte contenu dans un fichier fournit comme
+argument de la ligne de commande. L’exécutable aura pour nom Lexique et nécessitera
+toujours un argument : le nom du fichier à traiter.
+Les fonctionnalités suivantes devront être implantées:
+1. afficher les mots du lexique en ordre alphabétique;
+2. sauvegarder les mots du lexique en ordre alphabétique.Le nom du fichier de sauvegarde
+est le nom du fichier d’entrée suivi du suffixe(.LEX);
+3. indiquer si le mot est présent dans le texte;
+4. sauvegarder l’arbre dans un fichier, le nom du fichier de sauvegarde est le nom du
+fichier d’entrée suivi du suffixe(.DIC)(format décrit plus loin);
+En l’absence d’option sur la ligne de commande ces fonctionnalités seront accessibles via
+un menu.
+Ces fonctionnalités pourront également être accessibles via une option de la ligne de commande:
+1. Lexique -l nom afficher les mots du lexique du fichier nom en ordre alphabétique;
+2. Lexique -s nom sauvegarde les mots du lexique du fichier nom en ordre alphabétique.
+Le nom du fichier de sauvegarde est le nom du fichier d’entrée suivi du suffixe(.
+L);
+3. Lexique -r Mot nom indique si Mot apparaît dans le fichier nom
+4. Lexique -S nom sauvegarde l’arbre. Le nom du fichier de sauvegarde est le nom du
+fichier d’entrée suivi du suffixe(.DIC)(format décrit plus loin).
+Sauf pour l’option -S, si un fichier de sauvegarde .DIC existe, le lexique sera reconstruit
+à partir de la sauvegarde et non en traitant à nouveau le fichier contenant le texte. L’option
+-S force le traitement à partir du fichier contenant le texte.
+La

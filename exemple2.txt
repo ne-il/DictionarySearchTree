@@ -1,0 +1,6 @@
+Le langage C a été inventé au cours de l'année 1972 dans les Laboratoires Bell. Il était développé en même temps que UNIX par Dennis Ritchie et Ken Thompson. Ken Thompson avait développé un prédécesseur de C, le langage B, qui est lui-même inspiré de BCPL. Dennis Ritchie a fait évoluer le langage B dans une nouvelle version suffisamment différente, en ajoutant notamment les types, pour qu'elle soit appelée C1.
+
+Bien que C soit officiellement inspiré de B et de BCPL, on note une forte influence de PL/1 (ou de PL360) ; on a pu dire que C était à Unix et au PDP11 ce que PL1 fut pour la réécriture de Multics.
+
+Par la suite, Brian Kernighan aida à populariser le langage C. Il procéda aussi à quelques modifications de dernière minute.
+En 1978, Kernighan fut le principal auteur du livre The C Programming Language décrivant le langage enfin stabilisé ; Ritchie s'était occupé des appendices et des exemples avec Unix. On appelle aussi ce livre « le K&R », et l'on parle de C traditionnel ou de C K&R lorsqu'on se réfère au langage tel qu'il existait à cette époque.
